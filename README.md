@@ -1,27 +1,201 @@
-<h1 align="center">Hi 👋, I'm Kshitij Kumar</h1>
-<h3 align="center">Aspiring Software Developer ,Data Analyst and A Game Developer</h3>
+<!-- ========================================= -->
+<!--      ARCADE PROFILE README + CAR MAP      -->
+<!-- ========================================= -->
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=whkshitij13&label=Profile%20views&color=0e75b6&style=flat" alt="whkshitij13" /> </p>
+<div align="center">
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=whkshitij13" alt="whkshitij13" /></a> </p>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&text=Kshitij%20Kumar&fontSize=55&fontAlignY=40&animation=twinkling&color=gradient&desc=Press%20Start%20To%20Explore&descAlignY=65"/>
 
-- 🌱 I’m currently learning **Cloud Management and Cybersecurity**
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=14&duration=2500&pause=800&color=F7D339&center=true&vCenter=true&multiline=true&width=1000&height=120&lines=%3E+LOADING+PLAYER...;%3E+SOFTWARE+DEV+%7C+CLOUD+%7C+AI+%7C+GAME+DEV;%3E+LEVEL+3%2B+YEARS+EXPERIENCE;%3E+WELCOME+TO+MY+WORLD"/>
 
-- 💬 Ask me about **React, Node and Unity**
+<img src="https://komarev.com/ghpvc/?username=whkshitij13&label=PLAYER+VISITS&color=ff69b4&style=for-the-badge"/>
 
-- 📫 How to reach me **whkshitij13@gmail.com**
+</div>
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1FG9pIzvdNy5ol3cK2iuiHqBz7ojhWzQe/view?usp=drive_link](https://drive.google.com/file/d/1FG9pIzvdNy5ol3cK2iuiHqBz7ojhWzQe/view?usp=drive_link)
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
+## 🕹️ PLAYER CARD
+
+<div align="center">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="200"/>
+</div>
+
+```txt
+Name   : Kshitij Kumar
+Role   : Software Developer @ Pricels
+XP     : 3+ Years
+Mode   : Full Stack | Cloud | AI | Game Dev
+Status : Building real-world scalable systems
+```
+
+---
+
+## 🚗 JOURNEY MODE
+
+<div align="center">
+  <img src="./car-tech-journey.svg" width="100%" alt="Animated car traveling through Kshitij's tech cities"/>
+</div>
+
+<p align="center">
+🚗 A real SVG car now moves across my tech world — Frontend City → Cloud City → AI Lab → Game Dev Arena
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.blender.org/" target="_blank" rel="noreferrer"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://heroku.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg" alt="heroku" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
+---
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=whkshitij13&show_icons=true&locale=en&layout=compact" alt="whkshitij13" /></p>
+## 👾 MAIN CHARACTER
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=whkshitij13&show_icons=true&locale=en" alt="whkshitij13" /></p>
+<div align="center">
+  <img src="https://media.giphy.com/media/26ufdipQqU2lhNA4g/giphy.gif" width="250"/>
+</div>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=whkshitij13&" alt="whkshitij13" /></p>
+```diff
++ Builds scalable full-stack applications 🚀
++ Designs cloud architecture ☁️
++ Creates AI-powered systems 🤖
++ Develops 3D games 🎮
++ Solves real-world engineering problems ⚡
+```
+
+---
+
+## 🌍 GAME WORLD MAP
+
+<div align="center">
+  <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="500"/>
+</div>
+
+### 🏙️ Frontend City
+```diff
++ React ⚛️
++ Angular 🅰️
++ TypeScript 📘
++ Tailwind CSS 🎨
+```
+
+### ☁️ Cloud Kingdom
+```diff
++ AWS (S3, Lambda, IAM) ☁️
++ Docker 🐳
++ Backend Systems 🚀
++ Architecture Design
+```
+
+### 🤖 AI Lab
+```diff
++ Machine Learning 🧠
++ TensorFlow / PyTorch
++ Intelligent Automation
+```
+
+### 🎮 Game Dev Arena
+```diff
++ Unity 🧊 → Chess 3D Game
++ Unreal Engine 🎯 → Survival Shooter
++ Gameplay + Physics + AI Systems
+```
+
+### 🏢 Enterprise Zone
+```diff
++ Salesforce ⚙️
++ Production-grade applications
+```
+
+---
+
+## 🧰 INVENTORY (TECH STACK)
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=react,angular,ts,nodejs,aws,docker,python,tensorflow,mongodb,postgres,unity,unreal,blender,salesforce&perline=7"/>
+</div>
+
+---
+
+## 🤖 AI COMPANION
+
+<div align="center">
+  <img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="220"/>
+</div>
+
+```diff
++ Built AI-driven tools
++ Automated workflows
++ Intelligent systems design
+```
+
+---
+
+## 🎮 BOSS LEVEL PROJECTS
+
+<div align="center">
+  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="300"/>
+</div>
+
+- 🧾 Dynamic Form Builder (AWS + Full Stack)
+- ☁️ Pre-signed URL File Preview System
+- 🤖 AI/ML Systems & Automation Tools
+- ♟️ Chess 3D Game (Unity)
+- 🔫 Survival Story Shooter (Unreal Engine)
+
+---
+
+## 📊 PLAYER STATS
+
+<div align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=whkshitij13&show_icons=true&theme=radical&hide_border=true"/>
+<img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=whkshitij13&theme=radical&hide_border=true"/>
+</div>
+
+<div align="center">
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whkshitij13&layout=compact&theme=radical&hide_border=true"/>
+</div>
+
+---
+
+## 🐍 SECRET LEVEL
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"/>
+</div>
+
+---
+
+## 🎯 CURRENT QUESTS
+
+```diff
++ Scaling cloud architecture ☁️
++ Deepening AI/ML expertise 🤖
++ Building immersive games 🎮
++ Optimizing backend performance ⚡
+```
+
+---
+
+## 💬 NPC DIALOGUE
+
+<div align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=12&duration=2800&pause=1000&color=00FFB3&center=true&vCenter=true&width=900&lines=%22This+developer+builds+systems...%22;%22...and+creates+worlds.%22;%22Keep+exploring.%22"/>
+</div>
+
+---
+
+## 📬 CONTACT PORTAL
+
+<div align="center">
+
+<a href="mailto:whkshitij13@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-CONTACT-ff69b4?style=for-the-badge&logo=gmail"/>
+</a>
+
+<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+  <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+</div>
+
+---
+
+## 🎞️ GAME OVER
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=160&section=footer&text=Thanks%20for%20Visiting!&fontSize=35&animation=twinkling&color=gradient"/>
+</div>
