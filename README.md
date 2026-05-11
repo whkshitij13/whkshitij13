@@ -149,7 +149,7 @@ I am currently working as a Software Developer with hands-on experience across w
   <img src="https://img.shields.io/badge/EMAIL-CONTACT-ff69b4?style=for-the-badge&logo=gmail"/>
 </a>
 
-<a href="https://linkedin.com/in/YOUR_LINKEDIN">
+<a href="https://linkedin.com/in/kshitij-kumar-789a3632b">
   <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
