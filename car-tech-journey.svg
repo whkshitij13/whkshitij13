@@ -1,112 +1,122 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated car traveling through Kshitij Kumar's tech cities">
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Animated game selection screen showing four development paths for Kshitij Kumar">
   <defs>
-    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#1a103d"/>
-      <stop offset="100%" stop-color="#3b1f6b"/>
+    <linearGradient id="screenBg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="45%" stop-color="#142033"/>
+      <stop offset="100%" stop-color="#250f35"/>
     </linearGradient>
-    <linearGradient id="roadGlow" x1="0" x2="1">
-      <stop offset="0%" stop-color="#00f5ff"/>
-      <stop offset="100%" stop-color="#ff4fd8"/>
+    <linearGradient id="webGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
     </linearGradient>
-    <filter id="neon">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <linearGradient id="gameGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#16a34a"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+    <linearGradient id="sfGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00a1e0"/>
+      <stop offset="100%" stop-color="#7dd3fc"/>
+    </linearGradient>
+    <linearGradient id="aiGrad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
-    <g id="star">
-      <circle r="1.8" fill="#fff176"/>
-    </g>
-    <g id="buildingA">
-      <rect width="110" height="88" rx="4" fill="#1b1b3a" stroke="#00f5ff" stroke-width="2"/>
-      <rect x="10" y="14" width="14" height="14" fill="#fff176"/>
-      <rect x="32" y="14" width="14" height="14" fill="#ff7ee5"/>
-      <rect x="54" y="14" width="14" height="14" fill="#00f5ff"/>
-      <rect x="76" y="14" width="14" height="14" fill="#fff176"/>
-      <rect x="10" y="38" width="14" height="14" fill="#00f5ff"/>
-      <rect x="32" y="38" width="14" height="14" fill="#fff176"/>
-      <rect x="54" y="38" width="14" height="14" fill="#ff7ee5"/>
-      <rect x="76" y="38" width="14" height="14" fill="#00f5ff"/>
-    </g>
-    <g id="car">
-      <rect x="20" y="36" width="82" height="22" rx="8" fill="#ff5353" stroke="#1b1b3a" stroke-width="3"/>
-      <rect x="38" y="18" width="40" height="24" rx="6" fill="#ffd166" stroke="#1b1b3a" stroke-width="3"/>
-      <rect x="48" y="24" width="12" height="10" rx="2" fill="#8be9fd"/>
-      <rect x="62" y="24" width="12" height="10" rx="2" fill="#8be9fd"/>
-      <circle cx="40" cy="60" r="11" fill="#222"/>
-      <circle cx="82" cy="60" r="11" fill="#222"/>
-      <circle cx="40" cy="60" r="4" fill="#bbb"/>
-      <circle cx="82" cy="60" r="4" fill="#bbb"/>
-      <circle cx="98" cy="45" r="4" fill="#fff176"/>
-      <rect x="10" y="42" width="10" height="6" rx="3" fill="#ffd166"/>
-    </g>
+    <filter id="softShadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#29415f" stroke-width="1" opacity="0.4"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="320" fill="url(#sky)"/>
+  <rect width="1200" height="420" fill="url(#screenBg)"/>
+  <rect width="1200" height="420" fill="url(#grid)" opacity="0.55"/>
 
-  <g opacity="0.9">
-    <use href="#star" x="60" y="40"/>
-    <use href="#star" x="140" y="78"/>
-    <use href="#star" x="220" y="36"/>
-    <use href="#star" x="340" y="54"/>
-    <use href="#star" x="430" y="28"/>
-    <use href="#star" x="560" y="70"/>
-    <use href="#star" x="690" y="42"/>
-    <use href="#star" x="820" y="34"/>
-    <use href="#star" x="930" y="68"/>
-    <use href="#star" x="1060" y="38"/>
-    <animateTransform attributeName="transform" type="translate" values="0 0;-8 0;0 0" dur="4s" repeatCount="indefinite"/>
+  <g opacity="0.7">
+    <circle cx="75" cy="70" r="2" fill="#f8fafc"/>
+    <circle cx="180" cy="38" r="1.8" fill="#facc15"/>
+    <circle cx="330" cy="82" r="2" fill="#7dd3fc"/>
+    <circle cx="510" cy="44" r="1.7" fill="#f8fafc"/>
+    <circle cx="760" cy="72" r="2" fill="#f472b6"/>
+    <circle cx="940" cy="38" r="1.8" fill="#22d3ee"/>
+    <circle cx="1105" cy="88" r="2" fill="#facc15"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 10 0; 0 0" dur="5s" repeatCount="indefinite"/>
   </g>
 
-  <g transform="translate(40,145)">
-    <use href="#buildingA" filter="url(#neon)"/>
-    <text x="55" y="-12" text-anchor="middle" font-family="Verdana" font-size="18" fill="#fff176">Frontend City</text>
+  <text x="600" y="46" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="26" font-weight="700" fill="#f8fafc">CHOOSE YOUR DEVELOPMENT PATH</text>
+  <text x="600" y="74" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="14" fill="#cbd5e1">Kshitij Kumar - Web, Games, Salesforce, AI and ML</text>
+
+  <g transform="translate(64,118)" filter="url(#softShadow)">
+    <rect width="244" height="210" rx="12" fill="#091827" stroke="url(#webGrad)" stroke-width="4"/>
+    <rect x="18" y="24" width="208" height="118" rx="8" fill="#0f2438" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="34" y="42" width="56" height="10" rx="5" fill="#38bdf8"/>
+    <rect x="34" y="66" width="176" height="12" rx="6" fill="#164e63"/>
+    <rect x="34" y="91" width="80" height="38" rx="5" fill="#0ea5e9" opacity="0.7"/>
+    <rect x="128" y="91" width="82" height="38" rx="5" fill="#22d3ee" opacity="0.45"/>
+    <text x="122" y="172" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="22" font-weight="700" fill="#e0f2fe">WEB DEV</text>
+    <text x="122" y="194" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="12" fill="#bae6fd">Responsive apps</text>
   </g>
 
-  <g transform="translate(330,130)">
-    <use href="#buildingA" filter="url(#neon)"/>
-    <rect x="0" y="-20" width="110" height="20" fill="#00f5ff" opacity="0.15"/>
-    <text x="55" y="-12" text-anchor="middle" font-family="Verdana" font-size="18" fill="#00f5ff">Cloud City</text>
+  <g transform="translate(342,118)" filter="url(#softShadow)">
+    <rect width="244" height="210" rx="12" fill="#101a12" stroke="url(#gameGrad)" stroke-width="4"/>
+    <rect x="48" y="36" width="148" height="88" rx="22" fill="#1f2937" stroke="#facc15" stroke-width="3"/>
+    <circle cx="86" cy="80" r="18" fill="#22c55e"/>
+    <rect x="78" y="68" width="16" height="24" rx="3" fill="#0f172a"/>
+    <rect x="74" y="72" width="24" height="16" rx="3" fill="#0f172a"/>
+    <circle cx="154" cy="72" r="8" fill="#ef4444"/>
+    <circle cx="174" cy="90" r="8" fill="#38bdf8"/>
+    <path d="M70 140 L122 116 L174 140 Z" fill="#22c55e" opacity="0.65" filter="url(#glow)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="1.7s" repeatCount="indefinite"/>
+    </path>
+    <text x="122" y="172" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="22" font-weight="700" fill="#dcfce7">GAME DEV</text>
+    <text x="122" y="194" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="12" fill="#fef08a">Unity gameplay</text>
   </g>
 
-  <g transform="translate(620,145)">
-    <use href="#buildingA" filter="url(#neon)"/>
-    <text x="55" y="-12" text-anchor="middle" font-family="Verdana" font-size="18" fill="#ff7ee5">AI Lab</text>
+  <g transform="translate(620,118)" filter="url(#softShadow)">
+    <rect width="244" height="210" rx="12" fill="#081b2b" stroke="url(#sfGrad)" stroke-width="4"/>
+    <path d="M72 95 C50 95 40 81 47 65 C53 50 68 48 79 56 C87 35 116 31 132 50 C145 43 166 50 170 68 C188 69 198 83 190 98 C183 110 168 112 152 111 L73 111 C64 111 57 105 72 95Z" fill="#00a1e0" opacity="0.95" filter="url(#glow)"/>
+    <rect x="48" y="132" width="148" height="8" rx="4" fill="#7dd3fc"/>
+    <rect x="62" y="149" width="120" height="8" rx="4" fill="#38bdf8" opacity="0.75"/>
+    <text x="122" y="172" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="21" font-weight="700" fill="#e0f2fe">SALESFORCE</text>
+    <text x="122" y="194" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="12" fill="#bae6fd">Orgs and CRM</text>
   </g>
 
-  <g transform="translate(910,130)">
-    <use href="#buildingA" filter="url(#neon)"/>
-    <text x="55" y="-12" text-anchor="middle" font-family="Verdana" font-size="18" fill="#7cffcb">Game Dev Arena</text>
+  <g transform="translate(898,118)" filter="url(#softShadow)">
+    <rect width="244" height="210" rx="12" fill="#1a1028" stroke="url(#aiGrad)" stroke-width="4"/>
+    <g stroke="#c084fc" stroke-width="2" opacity="0.85">
+      <line x1="72" y1="62" x2="124" y2="102"/>
+      <line x1="72" y1="116" x2="124" y2="102"/>
+      <line x1="124" y1="102" x2="176" y2="64"/>
+      <line x1="124" y1="102" x2="176" y2="138"/>
+      <line x1="72" y1="62" x2="176" y2="138"/>
+    </g>
+    <g fill="#f472b6" filter="url(#glow)">
+      <circle cx="72" cy="62" r="10"/>
+      <circle cx="72" cy="116" r="10"/>
+      <circle cx="124" cy="102" r="13"/>
+      <circle cx="176" cy="64" r="10"/>
+      <circle cx="176" cy="138" r="10"/>
+      <animateTransform attributeName="transform" type="scale" additive="sum" values="1;1.04;1" dur="2s" repeatCount="indefinite"/>
+    </g>
+    <text x="122" y="172" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="22" font-weight="700" fill="#f5d0fe">AI AND ML</text>
+    <text x="122" y="194" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="12" fill="#ddd6fe">Neural systems</text>
   </g>
 
-  <path d="M40 260 C 210 250, 270 250, 420 260 S 700 272, 1160 256" fill="none" stroke="url(#roadGlow)" stroke-width="10" stroke-linecap="round" filter="url(#neon)"/>
-  <path d="M40 260 C 210 250, 270 250, 420 260 S 700 272, 1160 256" fill="none" stroke="#2b1d55" stroke-width="24" stroke-linecap="round"/>
-  <path d="M40 260 C 210 250, 270 250, 420 260 S 700 272, 1160 256" fill="none" stroke="url(#roadGlow)" stroke-width="6" stroke-linecap="round" stroke-dasharray="18 18" opacity="0.85"/>
-
-  <g font-family="Verdana" font-size="14" fill="#ffffff" opacity="0.95">
-    <text x="90" y="295">React • Angular • TypeScript</text>
-    <text x="360" y="295">AWS • Docker • Architecture</text>
-    <text x="675" y="295">ML • TensorFlow • Automation</text>
-    <text x="930" y="295">Unity • Unreal • 3D Gameplay</text>
+  <g filter="url(#glow)">
+    <rect x="54" y="108" width="264" height="230" rx="18" fill="none" stroke="#facc15" stroke-width="4" stroke-dasharray="12 12">
+      <animate attributeName="x" values="54;332;610;888;54" dur="8s" repeatCount="indefinite"/>
+    </rect>
   </g>
 
-  <g>
-    <circle cx="95" cy="258" r="7" fill="#fff176"/>
-    <circle cx="392" cy="257" r="7" fill="#00f5ff"/>
-    <circle cx="690" cy="264" r="7" fill="#ff7ee5"/>
-    <circle cx="1000" cy="258" r="7" fill="#7cffcb"/>
+  <g font-family="Verdana, Arial, sans-serif" font-size="13" fill="#cbd5e1">
+    <text x="600" y="374" text-anchor="middle">Roadmap: build interfaces - craft gameplay - automate CRM - train intelligent systems</text>
+    <text x="600" y="396" text-anchor="middle" fill="#94a3b8">Animated selector cycles through each active development mode.</text>
   </g>
-
-  <g transform="translate(-120,-30)">
-    <use href="#car"/>
-    <animateMotion dur="9s" repeatCount="indefinite" rotate="auto">
-      <mpath href="#motionPath"/>
-    </animateMotion>
-  </g>
-
-  <path id="motionPath" d="M40 260 C 210 250, 270 250, 420 260 S 700 272, 1160 256" fill="none" stroke="none"/>
-
-  <text x="600" y="36" text-anchor="middle" font-family="Verdana" font-size="24" fill="#ffffff">Kshitij Kumar's Tech Journey</text>
-  <text x="600" y="62" text-anchor="middle" font-family="Verdana" font-size="14" fill="#f8f8f2">Software Developer @ Pricels • 3+ Years • Cloud • AI • Games</text>
 </svg>
