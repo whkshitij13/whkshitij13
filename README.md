@@ -1,15 +1,3 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&text=Kshitij%20Kumar&fontSize=54&fontAlignY=38&animation=twinkling&color=gradient&desc=Developer%20Mode%20Select&descAlignY=64"/>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=14&duration=2600&pause=800&color=F7D339&center=true&vCenter=true&multiline=true&width=1000&height=105&lines=%3E+WEB+DEV;%3E+GAME+DEV+UNITY;%3E+SALESFORCE+DEV;%3E+AI+AND+ML"/>
-
-<img src="https://komarev.com/ghpvc/?username=whkshitij13&label=PROFILE+VISITS&color=ff69b4&style=for-the-badge"/>
-
-</div>
-
----
-
 ## Mode Selection Roadmap
 
 <div align="center">

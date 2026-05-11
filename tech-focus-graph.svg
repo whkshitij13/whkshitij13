@@ -1,24 +1,15 @@
-<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology focus graph">
+<svg width="1200" height="330" viewBox="0 0 1200 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cluster and line graph showing Kshitij Kumar's technology focus">
   <defs>
     <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="100%" stop-color="#111827"/>
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="58%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#1a1030"/>
     </linearGradient>
-    <linearGradient id="web" x1="0" x2="1">
-      <stop offset="0%" stop-color="#0ea5e9"/>
-      <stop offset="100%" stop-color="#22d3ee"/>
-    </linearGradient>
-    <linearGradient id="game" x1="0" x2="1">
-      <stop offset="0%" stop-color="#22c55e"/>
-      <stop offset="100%" stop-color="#facc15"/>
-    </linearGradient>
-    <linearGradient id="salesforce" x1="0" x2="1">
-      <stop offset="0%" stop-color="#00a1e0"/>
-      <stop offset="100%" stop-color="#93c5fd"/>
-    </linearGradient>
-    <linearGradient id="ai" x1="0" x2="1">
-      <stop offset="0%" stop-color="#a855f7"/>
-      <stop offset="100%" stop-color="#f472b6"/>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="35%" stop-color="#00a1e0"/>
+      <stop offset="70%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
     <filter id="glow">
       <feGaussianBlur stdDeviation="3" result="blur"/>
@@ -27,39 +18,69 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="1" opacity="0.35"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
-  <text x="600" y="38" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="23" font-weight="700" fill="#f8fafc">3+ Years Experience Across My Core Tracks</text>
-  <text x="600" y="64" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="13" fill="#94a3b8">Current role: Software Developer with Salesforce and full-stack delivery focus</text>
+  <rect width="1200" height="330" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="330" rx="18" fill="url(#grid)" opacity="0.7"/>
 
-  <g font-family="Verdana, Arial, sans-serif" font-size="14" fill="#e5e7eb">
-    <text x="96" y="112">Web Development</text>
-    <rect x="265" y="96" width="760" height="22" rx="11" fill="#1f2937"/>
-    <rect x="265" y="96" width="690" height="22" rx="11" fill="url(#web)" filter="url(#glow)">
-      <animate attributeName="width" values="0;690" dur="1.4s" fill="freeze"/>
-    </rect>
-    <text x="1045" y="112" fill="#bae6fd">Strong</text>
+  <text x="600" y="35" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="23" font-weight="700" fill="#f8fafc">Technology Focus Graph</text>
+  <text x="600" y="59" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="13" fill="#94a3b8">3+ years experience - Software Developer | Salesforce Developer</text>
 
-    <text x="96" y="150">Salesforce Dev</text>
-    <rect x="265" y="134" width="760" height="22" rx="11" fill="#1f2937"/>
-    <rect x="265" y="134" width="620" height="22" rx="11" fill="url(#salesforce)" filter="url(#glow)">
-      <animate attributeName="width" values="0;620" dur="1.5s" fill="freeze"/>
-    </rect>
-    <text x="1045" y="150" fill="#bfdbfe">Active</text>
+  <g stroke="#475569" stroke-width="1">
+    <line x1="92" y1="255" x2="1080" y2="255"/>
+    <line x1="92" y1="95" x2="92" y2="255"/>
+    <line x1="92" y1="215" x2="1080" y2="215" opacity="0.45"/>
+    <line x1="92" y1="175" x2="1080" y2="175" opacity="0.45"/>
+    <line x1="92" y1="135" x2="1080" y2="135" opacity="0.45"/>
+    <line x1="92" y1="95" x2="1080" y2="95" opacity="0.45"/>
+  </g>
 
-    <text x="96" y="188">Game Dev Unity</text>
-    <rect x="265" y="172" width="760" height="22" rx="11" fill="#1f2937"/>
-    <rect x="265" y="172" width="520" height="22" rx="11" fill="url(#game)" filter="url(#glow)">
-      <animate attributeName="width" values="0;520" dur="1.6s" fill="freeze"/>
-    </rect>
-    <text x="1045" y="188" fill="#fef08a">Creative</text>
+  <g font-family="Verdana, Arial, sans-serif" font-size="12" fill="#94a3b8">
+    <text x="92" y="278" text-anchor="middle">2023</text>
+    <text x="330" y="278" text-anchor="middle">2024</text>
+    <text x="568" y="278" text-anchor="middle">2025</text>
+    <text x="806" y="278" text-anchor="middle">2026</text>
+    <text x="1080" y="278" text-anchor="middle">Next</text>
+  </g>
 
-    <text x="96" y="226">AI and ML</text>
-    <rect x="265" y="210" width="760" height="22" rx="11" fill="#1f2937"/>
-    <rect x="265" y="210" width="560" height="22" rx="11" fill="url(#ai)" filter="url(#glow)">
-      <animate attributeName="width" values="0;560" dur="1.7s" fill="freeze"/>
-    </rect>
-    <text x="1045" y="226" fill="#f5d0fe">Growing</text>
+  <polyline points="92,218 330,190 568,156 806,126 1080,104" fill="none" stroke="url(#line)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="0 1400;1400 0" dur="2.2s" fill="freeze"/>
+  </polyline>
+
+  <g filter="url(#glow)">
+    <circle cx="92" cy="218" r="8" fill="#38bdf8"/>
+    <circle cx="330" cy="190" r="8" fill="#00a1e0"/>
+    <circle cx="568" cy="156" r="8" fill="#22c55e"/>
+    <circle cx="806" cy="126" r="8" fill="#facc15"/>
+    <circle cx="1080" cy="104" r="8" fill="#a78bfa"/>
+  </g>
+
+  <g font-family="Verdana, Arial, sans-serif" font-size="13" fill="#e5e7eb">
+    <text x="120" y="213">Web foundations</text>
+    <text x="356" y="185">Salesforce + backend</text>
+    <text x="594" y="151">Unity gameplay</text>
+    <text x="832" y="121">AI/ML systems</text>
+    <text x="990" y="88">Integrated products</text>
+  </g>
+
+  <g font-family="Verdana, Arial, sans-serif" font-size="12" fill="#f8fafc">
+    <line x1="360" y1="102" x2="448" y2="144" stroke="#38bdf8" stroke-width="2" opacity="0.8"/>
+    <line x1="448" y1="144" x2="538" y2="103" stroke="#00a1e0" stroke-width="2" opacity="0.8"/>
+    <line x1="448" y1="144" x2="454" y2="215" stroke="#22c55e" stroke-width="2" opacity="0.8"/>
+    <line x1="538" y1="103" x2="620" y2="148" stroke="#a78bfa" stroke-width="2" opacity="0.8"/>
+    <circle cx="360" cy="102" r="24" fill="#0ea5e9" opacity="0.85"/>
+    <circle cx="448" cy="144" r="31" fill="#00a1e0" opacity="0.9"/>
+    <circle cx="538" cy="103" r="24" fill="#22c55e" opacity="0.85"/>
+    <circle cx="454" cy="215" r="25" fill="#facc15" opacity="0.85"/>
+    <circle cx="620" cy="148" r="28" fill="#a78bfa" opacity="0.85"/>
+    <text x="360" y="106" text-anchor="middle">Web</text>
+    <text x="448" y="148" text-anchor="middle">SF</text>
+    <text x="538" y="107" text-anchor="middle">Game</text>
+    <text x="454" y="219" text-anchor="middle">API</text>
+    <text x="620" y="152" text-anchor="middle">AI</text>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" dur="3s" repeatCount="indefinite"/>
   </g>
 </svg>
