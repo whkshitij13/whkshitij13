@@ -1,4 +1,3 @@
-## Mode Selection Roadmap
 
 <div align="center">
   <img src="./car-tech-journey.svg" width="100%" alt="Animated game selection screen showing Kshitij's four development paths"/>
