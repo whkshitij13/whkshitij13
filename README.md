@@ -131,8 +131,7 @@ I am currently working as a Software Developer with hands-on experience across w
 ## GitHub Graphs
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=whkshitij13&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whkshitij13&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="./github-activity-graph.svg" width="100%" alt="GitHub activity graph"/>
 </div>
 
 ---

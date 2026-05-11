@@ -50,10 +50,6 @@
     <animateTransform attributeName="transform" type="translate" values="0 0; 10 0; 0 0" dur="5s" repeatCount="indefinite"/>
   </g>
 
-  <text x="600" y="46" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="26" font-weight="700" fill="#f8fafc">CHOOSE YOUR DEVELOPMENT PATH</text>
-  <text x="600" y="74" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="14" fill="#cbd5e1">Kshitij Kumar - Web, Games, Salesforce, AI and ML</text>
-  <text x="600" y="96" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="12" fill="#facc15">Click a card to jump to that section</text>
-
   <a href="#web-development">
     <g transform="translate(64,118)" filter="url(#softShadow)" style="cursor:pointer">
       <rect width="244" height="210" rx="12" fill="#091827" stroke="url(#webGrad)" stroke-width="4"/>
@@ -124,8 +120,4 @@
     </rect>
   </g>
 
-  <g font-family="Verdana, Arial, sans-serif" font-size="13" fill="#cbd5e1">
-    <text x="600" y="374" text-anchor="middle">Roadmap: build interfaces - craft gameplay - automate CRM - train intelligent systems</text>
-    <text x="600" y="396" text-anchor="middle" fill="#94a3b8">Animated selector cycles through each active development mode.</text>
-  </g>
 </svg>

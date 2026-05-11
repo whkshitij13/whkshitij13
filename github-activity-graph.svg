@@ -1,0 +1,67 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub activity graph">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#141a2e"/>
+    </linearGradient>
+    <linearGradient id="activity" x1="0" x2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <text x="600" y="38" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="24" font-weight="700" fill="#f8fafc">GitHub Activity Graph</text>
+  <text x="600" y="62" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="13" fill="#94a3b8">Projects, commits, experiments, and profile work</text>
+
+  <g stroke="#334155" stroke-width="1" opacity="0.65">
+    <line x1="80" y1="238" x2="1110" y2="238"/>
+    <line x1="80" y1="198" x2="1110" y2="198"/>
+    <line x1="80" y1="158" x2="1110" y2="158"/>
+    <line x1="80" y1="118" x2="1110" y2="118"/>
+    <line x1="80" y1="78" x2="1110" y2="78"/>
+  </g>
+
+  <polyline points="80,224 190,188 300,206 410,150 520,170 630,114 740,132 850,92 960,122 1110,82" fill="none" stroke="url(#activity)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <animate attributeName="stroke-dasharray" values="0 1500;1500 0" dur="2.4s" fill="freeze"/>
+  </polyline>
+
+  <g filter="url(#glow)">
+    <circle cx="80" cy="224" r="7" fill="#38bdf8"/>
+    <circle cx="190" cy="188" r="7" fill="#22d3ee"/>
+    <circle cx="300" cy="206" r="7" fill="#60a5fa"/>
+    <circle cx="410" cy="150" r="7" fill="#22c55e"/>
+    <circle cx="520" cy="170" r="7" fill="#84cc16"/>
+    <circle cx="630" cy="114" r="7" fill="#facc15"/>
+    <circle cx="740" cy="132" r="7" fill="#fb7185"/>
+    <circle cx="850" cy="92" r="7" fill="#a78bfa"/>
+    <circle cx="960" cy="122" r="7" fill="#c084fc"/>
+    <circle cx="1110" cy="82" r="7" fill="#f472b6"/>
+  </g>
+
+  <g font-family="Verdana, Arial, sans-serif" font-size="12" fill="#94a3b8">
+    <text x="80" y="265" text-anchor="middle">Web</text>
+    <text x="300" y="265" text-anchor="middle">APIs</text>
+    <text x="520" y="265" text-anchor="middle">Salesforce</text>
+    <text x="740" y="265" text-anchor="middle">Unity</text>
+    <text x="960" y="265" text-anchor="middle">AI/ML</text>
+    <text x="1110" y="265" text-anchor="middle">Next</text>
+  </g>
+
+  <g font-family="Verdana, Arial, sans-serif" font-size="13" fill="#e5e7eb">
+    <rect x="78" y="82" width="16" height="16" rx="4" fill="#38bdf8"/>
+    <text x="102" y="95">Code growth</text>
+    <rect x="205" y="82" width="16" height="16" rx="4" fill="#22c55e"/>
+    <text x="229" y="95">Production work</text>
+    <rect x="365" y="82" width="16" height="16" rx="4" fill="#a78bfa"/>
+    <text x="389" y="95">Learning path</text>
+  </g>
+</svg>
