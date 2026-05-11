@@ -1,0 +1,65 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Technology focus graph">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="web" x1="0" x2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="game" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+    <linearGradient id="salesforce" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00a1e0"/>
+      <stop offset="100%" stop-color="#93c5fd"/>
+    </linearGradient>
+    <linearGradient id="ai" x1="0" x2="1">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
+  <text x="600" y="38" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="23" font-weight="700" fill="#f8fafc">3+ Years Experience Across My Core Tracks</text>
+  <text x="600" y="64" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="13" fill="#94a3b8">Current role: Software Developer with Salesforce and full-stack delivery focus</text>
+
+  <g font-family="Verdana, Arial, sans-serif" font-size="14" fill="#e5e7eb">
+    <text x="96" y="112">Web Development</text>
+    <rect x="265" y="96" width="760" height="22" rx="11" fill="#1f2937"/>
+    <rect x="265" y="96" width="690" height="22" rx="11" fill="url(#web)" filter="url(#glow)">
+      <animate attributeName="width" values="0;690" dur="1.4s" fill="freeze"/>
+    </rect>
+    <text x="1045" y="112" fill="#bae6fd">Strong</text>
+
+    <text x="96" y="150">Salesforce Dev</text>
+    <rect x="265" y="134" width="760" height="22" rx="11" fill="#1f2937"/>
+    <rect x="265" y="134" width="620" height="22" rx="11" fill="url(#salesforce)" filter="url(#glow)">
+      <animate attributeName="width" values="0;620" dur="1.5s" fill="freeze"/>
+    </rect>
+    <text x="1045" y="150" fill="#bfdbfe">Active</text>
+
+    <text x="96" y="188">Game Dev Unity</text>
+    <rect x="265" y="172" width="760" height="22" rx="11" fill="#1f2937"/>
+    <rect x="265" y="172" width="520" height="22" rx="11" fill="url(#game)" filter="url(#glow)">
+      <animate attributeName="width" values="0;520" dur="1.6s" fill="freeze"/>
+    </rect>
+    <text x="1045" y="188" fill="#fef08a">Creative</text>
+
+    <text x="96" y="226">AI and ML</text>
+    <rect x="265" y="210" width="760" height="22" rx="11" fill="#1f2937"/>
+    <rect x="265" y="210" width="560" height="22" rx="11" fill="url(#ai)" filter="url(#glow)">
+      <animate attributeName="width" values="0;560" dur="1.7s" fill="freeze"/>
+    </rect>
+    <text x="1045" y="226" fill="#f5d0fe">Growing</text>
+  </g>
+</svg>

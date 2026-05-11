@@ -14,6 +14,29 @@
 
 <div align="center">
   <img src="./car-tech-journey.svg" width="100%" alt="Animated game selection screen showing Kshitij's four development paths"/>
+  <br/>
+  <a href="#web-development"><img src="https://img.shields.io/badge/Open-Web%20Development-38BDF8?style=for-the-badge"/></a>
+  <a href="#game-dev-unity"><img src="https://img.shields.io/badge/Open-Game%20Dev-22C55E?style=for-the-badge"/></a>
+  <a href="#salesforce-dev"><img src="https://img.shields.io/badge/Open-Salesforce%20Dev-00A1E0?style=for-the-badge"/></a>
+  <a href="#ai-and-ml"><img src="https://img.shields.io/badge/Open-AI%20and%20ML-A78BFA?style=for-the-badge"/></a>
+</div>
+
+---
+
+## About Me
+
+```txt
+Name       : Kshitij Kumar
+Experience : 3+ years
+Current    : Software Developer | Salesforce Developer
+Focus      : Web Development, Salesforce, Game Dev, AI and ML
+Mindset    : Building practical systems, clean user flows, and smarter automation
+```
+
+I am currently working as a Software Developer with hands-on experience across web technologies and Salesforce development. Alongside production work, I keep building in Unity and AI/ML so my roadmap stays balanced between enterprise systems, creative interaction, and intelligent products.
+
+<div align="center">
+  <img src="./tech-focus-graph.svg" width="100%" alt="Technology focus graph for Kshitij Kumar"/>
 </div>
 
 ---
@@ -34,6 +57,12 @@
   </tr>
 </table>
 
+<details>
+  <summary><b>More About My Web Work</b></summary>
+  <br/>
+  I work on responsive layouts, reusable components, API integration, forms, dashboards, and frontend flows that stay clear on desktop and mobile.
+</details>
+
 ---
 
 ## Game Dev (Unity)
@@ -51,6 +80,12 @@
     </td>
   </tr>
 </table>
+
+<details>
+  <summary><b>More About My Game Dev Work</b></summary>
+  <br/>
+  I build Unity scenes, player controllers, gameplay mechanics, 3D interactions, physics-based behavior, and prototypes that can grow into complete game systems.
+</details>
 
 ---
 
@@ -73,6 +108,12 @@
   </tr>
 </table>
 
+<details>
+  <summary><b>More About My Salesforce Work</b></summary>
+  <br/>
+  I work with Salesforce org setup, automation, Flows, Apex, Lightning Web Components, and CRM workflows that support real business operations.
+</details>
+
 ---
 
 ## AI and ML
@@ -90,6 +131,21 @@
     </td>
   </tr>
 </table>
+
+<details>
+  <summary><b>More About My AI/ML Work</b></summary>
+  <br/>
+  I explore model training, data processing, AI-assisted automation, prediction workflows, and practical ML features that can plug into real applications.
+</details>
+
+---
+
+## GitHub Graphs
+
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=whkshitij13&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=whkshitij13&layout=compact&theme=tokyonight&hide_border=true"/>
+</div>
 
 ---
 
